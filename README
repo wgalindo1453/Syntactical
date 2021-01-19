@@ -1,0 +1,22 @@
+JAVAFX NOTES:
+
+
+FXML CODE:
+
+FOR PICTURES TO WORK IMG URL Should have forward slashes not back slashes
+example: "file:/C:/Users/rellik/SyntacticalDA/picture.jpeg"
+
+
+
+Also Make sure the Controller is connected via scene builder for methods to be utilized and 
+the controller classes are in the same packages as the views FXML files
+
+
+TextAREAS:
+make sure your .txt files are not open while running application. will cause interrupting
+and might not load correctly
+
+Static methods to retain SQL row values
+
+
+WORKING ON ONE CONTROLLER FOR ALL DISPLAYS 

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.media.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="1002.0" prefWidth="1568.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.View.Display3Controller">
+    <children>
+        <ImageView fitHeight="1387.0" fitWidth="1610.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="file:/C:/Users/rellik/SyntacticalDA/displaybg.jpg" />
+            </image>
+        </ImageView>
+        <SplitPane dividerPositions="0.48616039744499645" layoutX="22.0" layoutY="66.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="863.0" prefWidth="1411.0" style="-fx-border-color: FFFFF;">
+            <items>
+                <SplitPane dividerPositions="0.4878048780487805" orientation="VERTICAL" prefHeight="861.0" prefWidth="603.0">
+               <items>
+                  <TextArea fx:id="textArea1" prefHeight="200.0" prefWidth="200.0" />
+                  <TextArea fx:id="textArea2" prefHeight="200.0" prefWidth="200.0" />
+               </items>
+                </SplitPane>
+            <SplitPane dividerPositions="0.48664343786295006" orientation="VERTICAL" prefHeight="861.0" prefWidth="796.0">
+              <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                     <children>
+                        <TextArea fx:id="textArea3" prefHeight="416.0" prefWidth="721.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children></AnchorPane>
+                  <TextArea fx:id="textArea4" prefHeight="446.0" prefWidth="721.0" />
+              </items>
+            </SplitPane>
+            </items>
+            <effect>
+                <InnerShadow />
+            </effect>
+        </SplitPane>
+        <Button fx:id="exitButton" layoutX="186.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: FFFFF;" text="exit">
+            <font>
+                <Font name="Buxton Sketch" size="24.0" />
+            </font>
+            <textFill>
+                <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                    <stops>
+                        <Stop color="WHITE" />
+                        <Stop color="WHITE" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </textFill>
+            <effect>
+                <DropShadow />
+            </effect>
+        </Button>
+        <Button fx:id="backButton" layoutX="38.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: FFFFF;" text="Back">
+            <font>
+                <Font name="Buxton Sketch" size="24.0" />
+            </font>
+            <textFill>
+                <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                    <stops>
+                        <Stop color="#f8f8f8" />
+                        <Stop color="WHITE" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </textFill>
+            <effect>
+                <DropShadow />
+            </effect>
+        </Button>
+        <Button fx:id="saveButton" layoutX="113.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: FFFFF;" text="Save">
+            <font>
+                <Font name="Buxton Sketch" size="24.0" />
+            </font>
+            <textFill>
+                <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                    <stops>
+                        <Stop color="#f8f8f8" />
+                        <Stop color="WHITE" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </textFill>
+            <effect>
+                <DropShadow />
+            </effect>
+        </Button>
+    </children>
+</AnchorPane>

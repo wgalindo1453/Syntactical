@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="1002.0" prefWidth="1568.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.View.DisplayController">
+   <children>
+      <ImageView fitHeight="1387.0" fitWidth="1610.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/rellik/SyntacticalDA/displaybg.jpg" />
+         </image>
+      </ImageView>
+      <SplitPane dividerPositions="0.5" layoutX="22.0" layoutY="66.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="863.0" prefWidth="1411.0" style="-fx-border-color: FFFFF;">
+         <items>
+            <TextArea fx:id="syntaxExpArea" prefHeight="982.0" prefWidth="618.0" promptText="text area">
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextArea>
+            <SplitPane dividerPositions="0.4722814498933902" orientation="VERTICAL" prefHeight="876.0" prefWidth="424.0">
+               <items>
+                  <WebView fx:id="webView" prefHeight="937.0" prefWidth="571.0">
+                     <effect>
+                        <InnerShadow />
+                     </effect></WebView>
+                  <WebView fx:id="webView2" prefHeight="449.0" prefWidth="583.0">
+                     <effect>
+                        <InnerShadow />
+                     </effect></WebView>
+               </items>
+            </SplitPane>
+         </items>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </SplitPane>
+      <Button fx:id="exitButton" layoutX="186.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: FFFFF;" text="exit">
+         <font>
+            <Font name="Buxton Sketch" size="24.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="backButton" layoutX="38.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: FFFFF;" text="Back">
+         <font>
+            <Font name="Buxton Sketch" size="24.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#f8f8f8" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="saveButton" layoutX="113.0" layoutY="14.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="80.0" style="-fx-background-color: FFFFF;" text="Save">
+         <font>
+            <Font name="Buxton Sketch" size="24.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#f8f8f8" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="funcsButton" layoutX="1427.0" layoutY="113.0" mnemonicParsing="false" style="-fx-background-color: FFFFF;" text="functions(  )">
+         <font>
+            <Font name="Buxton Sketch" size="24.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#eeebeb" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="condsButton" layoutX="1425.0" layoutY="165.0" mnemonicParsing="false" style="-fx-background-color: FFFFF;" text="Conditionals">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="Buxton Sketch" size="24.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#eeebeb" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <Label layoutX="29.0" layoutY="954.0" style="-fx-background-color: FFFFF;" text="Compare Scatchpad With:">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#f5f3f3" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font name="Buxton Sketch" size="24.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <CheckBox fx:id="c_Check" layoutX="487.0" layoutY="958.0" mnemonicParsing="false" style="-fx-background-color: FFFFF;" text="C">
+         <font>
+            <Font name="Buxton Sketch" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#fcfcfc" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </CheckBox>
+      <CheckBox fx:id="cpp_Check" layoutX="398.0" layoutY="958.0" mnemonicParsing="false" style="-fx-background-color: FFFFF;" text="C++">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="Buxton Sketch" size="18.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#fcfcfc" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </CheckBox>
+      <CheckBox fx:id="java_Check" layoutX="288.0" layoutY="958.0" mnemonicParsing="false" style="-fx-background-color: FFFFF;" text="JAVA">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="Buxton Sketch" size="18.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#fcfcfc" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </CheckBox>
+      <Button fx:id="cmp_Button" layoutX="669.0" layoutY="946.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="138.0" style="-fx-background-color: FFFFF;" text="Compare-&gt;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="Buxton Sketch" size="24.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#f8f8f8" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <CheckBox fx:id="python_Check" layoutX="552.0" layoutY="958.0" mnemonicParsing="false" style="-fx-background-color: FFFFF;" text="Python">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="Buxton Sketch" size="18.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#fcfcfc" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </CheckBox>
+   </children>
+</AnchorPane>

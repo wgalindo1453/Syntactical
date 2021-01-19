@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.media.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="1138.0" prefWidth="1778.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.View.CmpDisplayController">
+   <children>
+      <ImageView fitHeight="1159.0" fitWidth="1991.0" layoutX="-1.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/rellik/SyntacticalDA/cmpbg.jpg" />
+         </image>
+      </ImageView>
+      <SplitPane dividerPositions="0.1583011583011583" layoutX="19.0" layoutY="88.0" prefHeight="932.0" prefWidth="1815.0" style="-fx-border-color: FFFFF;">
+         <items>
+            <TextArea fx:id="originalTextArea" prefHeight="930.0" prefWidth="245.0">
+               <effect>
+                  <InnerShadow color="#ff0202" />
+               </effect></TextArea>
+              <SplitPane dividerPositions="0.16283650689428758" layoutX="186.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="930.0" prefWidth="1569.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="186.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <items>
+                      <TextArea fx:id="newTextArea" prefHeight="930.0" prefWidth="243.0" promptText="text area">
+                          <effect>
+                        <InnerShadow color="#006aff" />
+                          </effect>
+                  </TextArea>
+                  <SplitPane dividerPositions="0.19679633867276888" prefHeight="930.0" prefWidth="1327.0">
+                     <items>
+                        <TextArea fx:id="newTextArea2" prefHeight="930.0" prefWidth="663.0">
+                           <effect>
+                              <InnerShadow color="#08c6f5" />
+                           </effect>
+                        </TextArea>
+                        <SplitPane dividerPositions="0.2257142857142857" prefHeight="200.0" prefWidth="200.0">
+                           <items>
+                              <TextArea fx:id="newTextArea3" prefHeight="200.0" prefWidth="200.0">
+                                 <effect>
+                                    <InnerShadow color="#0014eb" />
+                                 </effect>
+                              </TextArea>
+                              <WebView fx:id="webView" prefHeight="200.0" prefWidth="200.0">
+                                 <effect>
+                                    <InnerShadow />
+                                 </effect>
+                              </WebView>
+                           </items>
+                        </SplitPane>
+                     </items>
+                  </SplitPane>
+                  </items>
+              </SplitPane>
+         </items>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </SplitPane>
+        <Button fx:id="exitButton" layoutX="178.0" layoutY="1055.0" mnemonicParsing="false" style="-fx-background-color: FFFFF;" text="exit">
+            <font>
+                <Font name="Buxton Sketch" size="18.0" />
+            </font>
+            <textFill>
+                <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                    <stops>
+                        <Stop color="WHITE" />
+                        <Stop color="WHITE" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </textFill>
+            <effect>
+                <DropShadow />
+            </effect>
+        </Button>
+        <Button fx:id="backButton" layoutX="99.0" layoutY="1055.0" mnemonicParsing="false" style="-fx-background-color: FFFFF;" text="Back">
+            <font>
+                <Font name="Buxton Sketch" size="18.0" />
+            </font>
+            <textFill>
+                <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                    <stops>
+                        <Stop color="#f8f8f8" />
+                        <Stop color="WHITE" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </textFill>
+            <effect>
+                <DropShadow />
+            </effect>
+        </Button>
+        <Button fx:id="saveButton" layoutX="38.0" layoutY="1055.0" mnemonicParsing="false" style="-fx-background-color: FFFFF;" text="Save">
+            <font>
+                <Font name="Buxton Sketch" size="18.0" />
+            </font>
+            <textFill>
+                <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                    <stops>
+                        <Stop color="#f8f8f8" />
+                        <Stop color="WHITE" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </textFill>
+            <effect>
+                <DropShadow />
+            </effect>
+        </Button>
+   </children>
+</AnchorPane>

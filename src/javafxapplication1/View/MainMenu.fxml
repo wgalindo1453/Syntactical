@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="665.0" prefWidth="1183.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.View.MainMenuController">
+   <children>
+      <ImageView fitHeight="675.0" fitWidth="1194.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/rellik/SyntacticalDA/picture.jpeg" />
+         </image>
+      </ImageView>
+      <ToggleButton fx:id="pythonButton" layoutX="679.0" layoutY="325.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="112.0" style="-fx-background-color: FFFFF;">
+         <graphic>
+            <ImageView fitHeight="94.0" fitWidth="105.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/rellik/SyntacticalDA/python2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </ToggleButton>
+      <ToggleButton fx:id="cppButton" layoutX="380.0" layoutY="324.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="64.0" style="-fx-background-color: FFFFF;">
+         <graphic>
+            <ImageView fitHeight="101.0" fitWidth="96.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/rellik/SyntacticalDA/Cpluslogo.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </ToggleButton>
+      <Label fx:id="mmLabel" layoutX="20.0" layoutY="14.0" prefHeight="36.0" prefWidth="314.0" style="-fx-background-color: fffff;">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#f8f8f8" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font name="Buxton Sketch" size="24.0" />
+         </font>
+      </Label>
+      <ToggleButton fx:id="javaButton" layoutX="533.0" layoutY="324.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="64.0" style="-fx-background-color: FFFFF;">
+         <graphic>
+            <ImageView fitHeight="119.0" fitWidth="112.0" pickOnBounds="true" preserveRatio="true" style="-fx-background-color: FFFFF;">
+               <image>
+                  <Image url="file:/C:/Users/rellik/SyntacticalDA/java.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </ToggleButton>
+      <Label layoutX="549.0" layoutY="133.0" text="Compare" textFill="WHITE">
+         <font>
+            <Font name="Buxton Sketch" size="24.0" />
+         </font>
+      </Label>
+      <ToggleButton fx:id="compButton" layoutX="518.0" layoutY="176.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="112.0" style="-fx-background-color: FFFFF;">
+         <graphic>
+            <ImageView fitHeight="119.0" fitWidth="137.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/rellik/SyntacticalDA/hacker.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </ToggleButton>
+   </children>
+</AnchorPane>
