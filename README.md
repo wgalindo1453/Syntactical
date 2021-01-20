@@ -19,5 +19,7 @@ Syntactical is a desktop application that allows you to practice, learn, compare
 
 ![alt text](https://github.com/wgalindo1453/Syntactical/blob/main/display2.PNG?raw=true)
 
+![alt text](https://github.com/wgalindo1453/Syntactical/blob/main/comparedisplay.PNG?raw=true)
+
 
 
