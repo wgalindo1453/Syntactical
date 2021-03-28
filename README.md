@@ -9,17 +9,17 @@ Syntactical is a desktop application that allows you to practice, learn, compare
 
 
 
-![alt text](https://github.com/wgalindo1453/Syntactical/blob/main/login.PNG?raw=true)
+![alt text](https://github.com/wgalindo1453/Motivate2/blob/master/loginscrn.PNG?raw=true)
 
-![alt text](https://github.com/wgalindo1453/Syntactical/blob/main/mainmenu.PNG?raw=true)
+![alt text](https://github.com/wgalindo1453/Motivate2/blob/master/swipe1.PNG?raw=true)
 
-![alt text](https://github.com/wgalindo1453/Syntactical/blob/main/Display.PNG?raw=true)
+![alt text](https://github.com/wgalindo1453/Motivate2/blob/master/swipe2.PNG?raw=true)
 
-![alt text](https://github.com/wgalindo1453/Syntactical/blob/main/CMPDISPLAY.PNG?raw=true)
+![alt text](https://github.com/wgalindo1453/Motivate2/blob/master/swipe3.PNG?raw=true)
 
-![alt text](https://github.com/wgalindo1453/Syntactical/blob/main/display2.PNG?raw=true)
+![alt text](https://github.com/wgalindo1453/Motivate2/blob/master/swipe4.PNG?raw=true)
 
-![alt text](https://github.com/wgalindo1453/Syntactical/blob/main/comparedisplay.PNG?raw=true)
+
 
 
 
